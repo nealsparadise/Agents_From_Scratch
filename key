@@ -1,0 +1,21 @@
+"github.copilot.chat.customProviders": {
+    "Groq": {
+        "apiType": "ChatCompletions",
+        "baseUrl": "https://groq.com",
+        "apiKey": "YOUR_GROQ_API_KEY",
+        "models": [
+            {
+                "modelId": "llama-3.3-70b-versatile",
+                "displayName": "Llama 3.3 70B (Groq)",
+                "supportsToolCalling": true,
+                "supportsVision": false
+            },
+            {
+                "modelId": "deepseek-r1-distill-llama-70b",
+                "displayName": "DeepSeek R1 70B (Groq)",
+                "supportsToolCalling": true,
+                "supportsVision": false
+            }
+        ]
+    }
+}
